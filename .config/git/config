@@ -1,8 +1,8 @@
-[user]
-	name = azamie
-	email = ishii.kami2001@gmail.com
-[push]
-	autoSetupRemote = true
-	default = current
+[include]
+  path = ~/.config/git/config.personal
+
+[includeIf "gitdir:~/Documents/Code/Work"]
+  path = ~/.config/git/config.work
+
 [core]
-	editor = vi
+  excludesfile = ~/.gitignore

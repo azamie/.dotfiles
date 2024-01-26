@@ -1,0 +1,14 @@
+[user]
+  name = Dat Huynh
+  email = ishii.kami2001@gmail.com
+
+[github]
+  user = azamie
+
+[push]
+  autoSetupRemote = true
+  default = current
+
+[core]
+  editor = vi
+  sshCommand = ssh -i ~/.ssh/azamie_ed25519

@@ -1,0 +1,14 @@
+[user]
+  name = Dat Huynh
+  email = dat.huynh@eastagile.com 
+
+[github]
+  user = DatHG
+
+[push]
+  autoSetupRemote = true
+  default = current
+
+[core]
+  editor = vi
+  sshCommand = ssh -i ~/.ssh/DatHG_ed25519
