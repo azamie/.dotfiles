@@ -1,9 +1,6 @@
 [user]
-  name = Dat Huynh
+  name = DatHG
   email = dat.huynh@eastagile.com 
-
-[github]
-  user = DatHG
 
 [push]
   autoSetupRemote = true

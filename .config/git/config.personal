@@ -1,9 +1,6 @@
 [user]
-  name = Dat Huynh
+  name = azamie
   email = ishii.kami2001@gmail.com
-
-[github]
-  user = azamie
 
 [push]
   autoSetupRemote = true
