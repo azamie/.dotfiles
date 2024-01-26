@@ -1,0 +1,8 @@
+[user]
+	name = azamie
+	email = ishii.kami2001@gmail.com
+[push]
+	autoSetupRemote = true
+	default = current
+[core]
+	editor = vi
