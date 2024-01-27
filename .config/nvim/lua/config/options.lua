@@ -9,7 +9,6 @@ vim.g.db_ui_winwidth = 30
 -- Set default tab
 vim.opt.tabstop = 2
 vim.opt.shiftwidth = 2
-vim.opt.softtabstop = 2
 vim.opt.expandtab = true
 
 -- Set highlight on search
