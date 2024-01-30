@@ -25,7 +25,16 @@ return {
       local lspconfig = require("lspconfig")
       lspconfig.lua_ls.setup({})
       lspconfig.tsserver.setup({})
-      lspconfig.pyright.setup({})
+      lspconfig.pyright.setup({
+        settings = {
+          python = {
+            analysis = {
+              autoSearchPaths = true,
+              typeCheckingMode = "off",
+            }
+          }
+        }
+      })
       lspconfig.cssls.setup({})
       lspconfig.tailwindcss.setup({})
 
